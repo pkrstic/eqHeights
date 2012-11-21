@@ -9,18 +9,18 @@
  * @author Predrag Krstic
  * @verson 1.0
  */
-(function($){
-$.fn.extend({ 
-	eqHeights: function() {
+;(function($){
+	$.fn.extend({
+		eqHeights: function() {
 
-		var maxH = 0;
-	
-		this.each(function() {
-			var h = $(this).height();
-			if (h > maxH) maxH = h;
-		});
+			var maxH = 0;
 
-		return $(this).height(maxH);
-	}
-});
+			this.each(function() {
+				var h = $(this).height();
+				if (h > maxH) maxH = h;
+			});
+
+			return $(this).height(maxH);
+		}
+	});
 })(jQuery);
