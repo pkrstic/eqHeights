@@ -13,4 +13,4 @@ _Please try it out in a project, and [make suggestions][issues] or [report bugs]
 Copyright (c) 2012 Predrag Krstić  
 Licensed under the MIT license.  
 
-[issues]: /pkrstic/tabs/issues
+[issues]: /pkrstic/eqHeights/issues
